@@ -5,6 +5,7 @@ import DefaultErrorPage from 'next/error'
 import Head from 'next/head'
 
 import '../components/Button'
+import '../components/Visual'
 
 const BUILDER_API_KEY = '9405949747fc49a9bef55a3bf94e9683'
 builder.init(BUILDER_API_KEY)

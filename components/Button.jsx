@@ -5,14 +5,10 @@ import { Button as KdsButton } from "@kickstartds/base/lib/button";
 
 import kdsInputs from '../kds-inputs.json';
 
-const Button = ({ label, size, variant }) => {
+const Button = (props) => {
   return (
     <div>
-      <KdsButton
-        label={label}
-        size={size}
-        variant={variant}
-      />
+      <KdsButton {...props} />
     </div>
   );
 };
